@@ -108,7 +108,7 @@ def suggester(input, data):
         lista.append((krotka, krotka1))
         
     lista = sorted(lista, key=lambda x: x[1])
-    #print(lista)
+    print(lista)
     return lista
     
     
